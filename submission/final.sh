@@ -172,7 +172,7 @@ NEW_TAPROOT_ADDR=$(echo "$NEW_TAPROOT_ADDR" | tr -d '[]" \n\t')
 # WRITE YOUR SOLUTION BELOW:
 ADDR_INFO=$(bitcoin-cli -regtest -rpcwallet=btrustwallet getaddressinfo "$NEW_TAPROOT_ADDR")
 check_cmd "Getting address info"
-echo "$ADDR_INFO"
+
 
 # STUDENT TASK: Extract the internal key (the x-only pubkey) from the descriptor
 # WRITE YOUR SOLUTION BELOW:
