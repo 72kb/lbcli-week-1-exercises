@@ -1,1 +1,1 @@
-bitcoin-cli getnewaddress  bech32m
+bitcoin-cli -regtest getnewaddress "" "bech32m"

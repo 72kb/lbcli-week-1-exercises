@@ -1,1 +1,1 @@
-bitcoin-cli createwallet builderswallet
+bitcoin-cli -regtest createwallet builderswallet

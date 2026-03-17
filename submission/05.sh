@@ -1,1 +1,1 @@
-bitcoin-cli getbalance
+bitcoin-cli -regtest getbalance

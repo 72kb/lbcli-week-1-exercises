@@ -1,1 +1,1 @@
-bitcoin-cli getnewaddress  legacy
+bitcoin-cli -regtest getnewaddress "" "legacy"

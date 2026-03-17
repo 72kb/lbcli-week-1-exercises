@@ -1,1 +1,1 @@
-bitcoin-cli getblockcount
+bitcoin-cli -regtest getblockcount
