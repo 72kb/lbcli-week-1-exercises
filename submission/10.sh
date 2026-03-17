@@ -1,1 +1,2 @@
-bitcoin-cli -regtest validateaddress bcrt1qckgvfee4qs6y98jrcn8qc0m6ce6sxls0vac3yy
+#!/bin/bash
+bitcoin-cli -regtest validateaddress "bcrt1qckgvfee4qs6y98jrcn8qc0m6ce6sxls0vac3yy" | jq -r .isvalid
